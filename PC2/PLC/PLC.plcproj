@@ -18,6 +18,18 @@
     <LibraryReferences>{3638f544-5230-4872-88e1-fce21851a8de}</LibraryReferences>
     <Released>false</Released>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="GVL.TcGVL">
+      <SubType>Code</SubType>
+      <LinkAlways>true</LinkAlways>
+    </Compile>
+    <Compile Include="POU.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POU_1.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
   <ProjectExtensions>
     <PlcProjectOptions>
       <XmlArchive>
